@@ -62,6 +62,8 @@ class Home extends BaseController
 
     public function studentList()
     {
-        return view('studentList');
+        $studentModel = new StudentModel();
+        $data['students'] = $studentModel->findAll();
+        return view('studentList', $data);
     }
 }
