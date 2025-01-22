@@ -65,6 +65,68 @@
             border-color: #ffeb80;
             border-width: 0.1rem;
         }
+
+        .studentList-btn-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .studentList-btn {
+            padding: 0.5rem 2rem;
+            font-size: 1.2rem;
+            background-color: #ffeb80;
+            border-width: 0.09rem;
+            border-radius: 0.4rem;
+        }
+
+        .studentList-btn:hover {
+            background-color: rgb(11, 10, 2);
+            color: #ffeb80;
+            border-color: #ffeb80;
+            border-width: 0.1rem;
+        }
+
+        /* student list */
+        .studentList {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .student-table-container {
+            min-width: 80rem;
+            max-width: 80rem;
+
+            min-height: 27rem;
+            max-height: 27rem;
+            overflow: auto;
+            border: 0.1rem solid black;
+        }
+
+        .register-btn-container {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .register-btn {
+            padding: 0.5rem 2rem;
+            font-size: 1.2rem;
+            background-color: #ffeb80;
+            border-width: 0.09rem;
+            border-radius: 0.4rem;
+        }
+
+        .register-btn:hover {
+            background-color: rgb(11, 10, 2);
+            color: #ffeb80;
+            border-color: #ffeb80;
+            border-width: 0.1rem;
+        }
     </style>
 </head>
 

@@ -14,13 +14,4 @@ class StudentModel extends Model
     protected $returnType = 'array';
 
     protected $allowedFields = ['name', 'phoneNumber', 'email', 'education'];
-
-    // protected $useTimeStamps = false;
-    // protected $createdField = 'created_at';
-    // protected $updatedField = 'updated_at';
-    // protected $deletedField = 'deleted_at';
-
-    // protected $validationRules = [];
-    // protected $validationMessages = [];
-    // protected $skipValidation = false;
 }

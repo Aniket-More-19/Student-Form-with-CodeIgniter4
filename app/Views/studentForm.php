@@ -30,8 +30,16 @@
         <button type="submit" class="submit-button">
             Submit
         </button>
-
     </form>
+
+    <div class="studentList-btn-container">
+        <a href="<?php echo site_url('studentList') ?>">
+            <button class="studentList-btn">
+                See Student List
+            </button>
+        </a>
+    </div>
+
 
 </section>
 
