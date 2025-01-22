@@ -66,4 +66,18 @@ class Home extends BaseController
         $data['students'] = $studentModel->findAll();
         return view('studentList', $data);
     }
+
+    public function deleteStudent($id)
+    {
+        $studentModel = new StudentModel();
+        try {
+            if ($studentModel->delete($id)) {
+                return redirect()->to('/studentList')->with('success', 'Student deleted successfully!');
+            } else {
+                return redirect()->to('/studentList')->with('error', 'Failed to delete student!');
+            }
+        } catch (\Exception $e) {
+            return redirect()->to('/studentList')->with('error', 'Error deleting student : ' . $e->getMessage());
+        }
+    }
 }

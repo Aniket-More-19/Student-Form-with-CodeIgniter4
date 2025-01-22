@@ -25,6 +25,13 @@
                     <td><?php echo $student['phoneNumber']; ?></td>
                     <td><?php echo $student['email']; ?></td>
                     <td><?php echo $student['education']; ?></td>
+                    <td>
+                        <a href="<?php echo site_url('/deleteStudent/' . $student['id']) ?>">
+                            <button class="delete-btn">
+                                <img src="<?php echo base_url('images/delete-btn.png'); ?>" alt="">
+                            </button>
+                        </a>
+                    </td>
                 </tr>
 
             <?php } ?>
