@@ -1,5 +1,3 @@
-<!-- app/Views/studentList.php -->
-
 <?= $this->extend('main') ?>
 
 <?= $this->section('content') ?>
@@ -7,6 +5,10 @@
 
 <section class="stuentList">
     <h1>
+        List of students here!
+        List of students here!
+        List of students here!
+        List of students here!
         List of students here!
     </h1>
 </section>

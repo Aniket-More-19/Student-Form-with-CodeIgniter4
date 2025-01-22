@@ -77,7 +77,7 @@
 
     <!-- main content -->
     <main>
-        <?php $this->renderSection('content') ?>
+        <?= $this->renderSection('content') ?>
     </main>
 
     <!-- SCRIPTS -->

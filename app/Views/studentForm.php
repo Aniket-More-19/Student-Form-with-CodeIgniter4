@@ -1,12 +1,11 @@
-<!-- app/Views/studentForm.php -->
-
 <?php $this->extend('main') ?>
 
 <?= $this->section('content') ?>
 
 <!-- student form -->
+
 <section class="stud-form-container">
-    <form action="/studentFormSubmit" method="post" class="form-container">
+    <form action="<?php echo site_url('/submit-form') ?>" method="post" class="form-container">
         <div class="mb-3 input-container">
             <label for="name" class="form-label">Full Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
