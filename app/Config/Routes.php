@@ -7,4 +7,6 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::studentForm');
 
-$routes->get('/studentList', 'studentList::studentList');
+$routes->post('/submit-form', 'Home::submitForm');
+
+$routes->get('/studentList', 'Home::studentList');
