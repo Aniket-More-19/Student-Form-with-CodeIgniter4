@@ -127,6 +127,15 @@
             border-color: #ffeb80;
             border-width: 0.1rem;
         }
+
+        .delete-btn {
+            border-width: 0;
+        }
+
+        .delete-btn img {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
     </style>
 </head>
 
